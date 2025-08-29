@@ -142,3 +142,28 @@ cursorAnimation()
 
 
 
+
+gsap.from("#page1 h2", {
+    y: 80,
+    opacity: 0,
+    delay: 1.2,
+    duration: 1.8,
+    stagger: 0.2
+})
+gsap.from("#page1 h5", {
+    y: 80,
+    opacity: 0,
+    delay: 1.2,
+    duration: 1.8,
+    stagger: 0.2
+})
+gsap.from("#page1 h6", {
+    y: 80,
+    opacity: 0,
+    delay: 1.2,
+    duration: 1.8,
+    stagger: 0.2
+})
+
+
+
